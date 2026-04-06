@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+
+  background-color: grey;
+}
+/* ----HEADER----- */
+.header {
+}
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+
+.header-logo-span {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+.header-list {
+}
+.header-item {
+}
+.header-item-link {
+  font-weight: 500;
+  line-height: 1.14;
+  color: #111;
+}
+/* --------HERO------- */
+.hero {
+}
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.hero-btn,
+.hero-link {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 14px;
+}
+.hero-btn {
+}
+.hero-link {
+}
+.hero-scroll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+/* -----INFO----- */
+.info {
+}
+.info-list {
+}
+.info-item {
+}
+.info-item-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+.info-item-text {
+  color: rgba(255, 255, 255, 0.7);
+}
