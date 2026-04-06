@@ -6,6 +6,16 @@ html {
 *::before {
   box-sizing: inherit;
 }
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -13,6 +23,9 @@ body {
   letter-spacing: -0.02em;
 
   background-color: grey;
+}
+.accent {
+  color: #fd9222;
 }
 /* ----HEADER----- */
 .header {
@@ -83,4 +96,128 @@ body {
 }
 .info-item-text {
   color: rgba(255, 255, 255, 0.7);
+}
+/* -----Taste------ */
+.taste-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+.taste-text {
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+.taste-item {
+}
+.taste-img {
+}
+.taste-subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.taste-subtitle:nth-child(n + 1) {
+  color: #111;
+}
+/* -----MADE----- */
+.made-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+.made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #111;
+}
+.made-list {
+}
+.made-item {
+}
+.made-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+/* ----CHOCOLATE----- */
+.chocolate-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+.chocolate-list {
+}
+.chocolate-item {
+}
+.chocolate-img {
+}
+.chocolate-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #111;
+}
+.chocolate-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+.chocolate-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+}
+/* ----FOOTER---- */
+.footer-top {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  width: 1136px;
+}
+.footer-text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.footer-address-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #ffffff;
+}
+.footer-bottom {
+}
+.footer-bottom-link {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.footer-bottom-link:hover,
+.footer-bottom-link:focus {
+  color: #fd9222;
 }
