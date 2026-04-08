@@ -197,9 +197,18 @@ body {
   max-width: 486px;
   margin: 0 auto;
 }
+.taste-list {
+  display: flex;
+  gap: 19px;
+}
 .taste-item {
+  max-width: 270px;
+  padding: 28px 0;
+  border: 1px solid #fd9222;
+  border-radius: 15px;
 }
 .taste-img {
+  margin-bottom: 36px;
 }
 .taste-subtitle {
   font-weight: 600;
@@ -207,6 +216,7 @@ body {
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  text-align: center;
   color: #ffffff;
 }
 .taste-subtitle:nth-child(n + 1) {
